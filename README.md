@@ -4,6 +4,8 @@ Application that takes two images as arguments and checks if one of the images
  corner of the cropped image within the original image.
 
 ## Installation
+The application requires **Python 3.6**.
+
 Usually a virtualenv is created:
 ```sh
 $ python3 -m venv env
