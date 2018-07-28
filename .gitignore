@@ -1,0 +1,5 @@
+*.pyc
+.idea
+.pytest_cache
+__pycache__
+subimage.egg-info/
