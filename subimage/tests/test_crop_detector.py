@@ -100,7 +100,7 @@ class TestCropDetector:
 
         # Non cropped images test cases
         detector = CropDetector(self.mario_path, self.mario_bw_path)
-        detector_2 = CropDetector(self.mario_path, self.mario_bw_path)
+        detector_2 = CropDetector(self.mario_bw_path, self.mario_path)
         is_crop, x, y = detector.verify_images_crop()
         is_crop_2, x_2, y_2 = detector_2.verify_images_crop()
 
